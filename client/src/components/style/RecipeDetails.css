@@ -1,0 +1,59 @@
+.recipe-details {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .recipe-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: square;
+    padding-left: 20px;
+    text-align: left;
+  }
+  .comments-section {
+    margin-top: 20px;
+  }
+  
+  .comment-input {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .comment-input input {
+    flex: 1;
+    padding: 8px;
+  }
+  
+  .comment-input button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 10px;
+    cursor: pointer;
+  }
+  
+  .comments-list .comment {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+  }
+  
+  .delete-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
