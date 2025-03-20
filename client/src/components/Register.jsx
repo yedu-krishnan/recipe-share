@@ -24,7 +24,7 @@ const Register = () => {
       .post('http://localhost:5000/signUp', { username, email, password })
       .then((res) => {
         localStorage.setItem('token', res.data.token);
-        localStorage.setItem('user', JSON.stringify(res.data.newUser));
+        localStorage.setItem('user', JSON.stringify(res.data.user));
 
         navigate('/login');
       })
